@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; background: #f4f6f9; margin: 0; }
+.container { max-width: 1000px; margin: 30px auto; background: #fff; padding: 25px; border-radius: 8px; }
+h1 { margin-top: 0; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background: #2c3e50; color: #fff; }
+.overdue { background: #ffe0e0; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input[type=text], input[type=date], textarea, select { width: 100%; padding: 8px; box-sizing: border-box; margin-top: 4px; }
+.btn { display: inline-block; background: #2980b9; color: #fff; padding: 8px 14px; border: none; border-radius: 4px; text-decoration: none; cursor: pointer; margin-top: 12px; }
+.btn.gray { background: #7f8c8d; }
+.btn.red { background: #c0392b; }
+.btn.small { padding: 4px 10px; margin-top: 0; font-size: 13px; }
+.alert { padding: 10px; border-radius: 4px; margin: 10px 0; }
+.alert.success { background: #d4edda; color: #155724; }
+.alert.error { background: #f8d7da; color: #721c24; }
+.filter { margin-top: 15px; }
+.filter input, .filter select { width: auto; display: inline-block; }
